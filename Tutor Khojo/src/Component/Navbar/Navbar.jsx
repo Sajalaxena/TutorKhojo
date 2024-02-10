@@ -51,23 +51,35 @@ function Navbar() {
         </strong>
         <div className="text-right">- Jawaharlal Nehru</div>
       </div>
-      <div className=" justify-center items-center flex-col flex mt-36">
-        <div className="font-bold text-2xl">Why us?</div>
-        <div className="text-base mt-2">
+      <div
+        className="flex flex-col justify-center items-center py-28 px-14 font-poppins"
+        style={{ backgroundColor: "#F8F9FF" }}
+      >
+        <h1 className="font-extrabold text-4xl mb-5">Why us?</h1>
+        <p>
+          {" "}
           These are just a few features that are highlights of our enterprise
-        </div>
-        <div className="flex">
+        </p>
+        <div
+          className="flex justify-between w-full mt-14"
+          style={{ backgroundColor: "#F8F9FF" }}
+        >
           {whyus.map((item, index) => (
             <Whyus detail={[item, imagesSrc[index]]} />
           ))}
         </div>
       </div>
-      <div className="justify-center items-center flex-col flex mt-36">
-        <div className="font-bold text-2xl">Our Metrics Tell the Story</div>
-        <div className="text-base mt-2">
+      <div
+        className="flex flex-col justify-center items-center py-28 px-14 font-poppins"
+        style={{ backgroundColor: "#F8F9FF" }}
+      >
+        <h1 className="font-extrabold text-4xl mb-5">
+          Our Metrics Tell the Story
+        </h1>
+        <p>
           Our metrics component gives you the inside scoop on why our
           methodologies are the best in bussiness
-        </div>
+        </p>
         <div className="flex">
           {metric.map((item, index) => (
             <Metric metric={item} />
