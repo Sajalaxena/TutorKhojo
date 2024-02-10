@@ -1,10 +1,16 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./Component/Navbar/Navbar";
 import "./index.css"
+import Team from "./Component/TeamComp/Team";
+import Plans from "./Component/PlansComp/Plans";
+import Testimonial from "./Component/TeatimonialComp/Teastimonial";
 
 function App() {
   return (
     <>
-      <Navbar/>
+      <Navbar />
+      <Testimonial />
+      <Plans />
+      <Team />
     </>
   );
 }
