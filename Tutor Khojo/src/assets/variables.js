@@ -58,3 +58,10 @@ export const teamMembers = [
         expertise: "Science, 8 Years Experience",
     },
 ];
+
+
+// Variables for contact page
+export const ContactHeading = "Let’s get in touch!";
+export const ContactSubhead = "Connect with us and initiate the journey of knowledge ,confidence and achievement for your child.";
+export const MobileNo = 8868900908;
+export const Email = "tutorkhojoo@gmail.com";
