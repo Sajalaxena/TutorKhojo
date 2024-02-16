@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --button-color: #4849FF;
+  background-color: #F8F9FF;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 200px;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.outlined-button {
+  border: 1px solid var(--button-color);
+  color: var(--button-color);
+}
+.filled-button {
+  background-color: var(--button-color);
+  color: white;
+}
